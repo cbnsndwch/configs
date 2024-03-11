@@ -3,14 +3,16 @@
     "description": "Common configs for NodeJS projects",
     "version": "0.1.0",
     "license": "MIT",
-    "private": true,
     "author": {
         "name": "cbnsndwch LLC",
         "url": "https://www.cbnsndwch.io"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/cbnsndwch/configs"
+        "url": "git+https://github.com/cbnsndwch/configs.git"
     },
     "workspaces": {
         "packages": [
@@ -24,10 +26,6 @@
         "lint": "turbo run lint",
         "lint:fix": "turbo run lint:fix",
         "test": "turbo run test",
-        "deps": "node tools/dep-version-map.js && tools/dep-version-map.json",
-        "vmajor": "yarn workspaces foreach -v --topological-dev version major",
-        "vminor": "yarn workspaces foreach -v --topological-dev version minor",
-        "vpatch": "yarn workspaces foreach -v --topological-dev version patch",
         "clog": "conventional-changelog -p angular -i CHANGELOG.md -o changelog-temp.md"
     },
     "devDependencies": {

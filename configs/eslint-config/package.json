@@ -1,15 +1,17 @@
 {
     "name": "@cbnsndwch/eslint-config",
-    "description": "ESLint configuration presets",
+    "description": "ESLint config presets",
     "version": "0.1.0",
     "license": "MIT",
     "author": {
         "name": "cbnsndwch LLC",
         "url": "https://www.cbnsndwch.io"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
-        "type": "git",
-        "url": "https://github.com/cbnsndwch/configs",
+        "url": "git+https://github.com/cbnsndwch/configs.git",
         "directory": "configs/eslint-config"
     },
     "files": [
