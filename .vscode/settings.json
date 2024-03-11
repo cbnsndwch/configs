@@ -1,0 +1,30 @@
+{
+    "eslint.workingDirectories": [
+        "configs/eslint-config",
+        "configs/tsconfig"
+    ],
+    "eslint.lintTask.options": "-c .eslintrc.vscode.js",
+    "files.eol": "\n",
+    "files.associations": {
+        "*.css": "tailwindcss",
+        ".env": "dotenv"
+    },
+    "svg.preview.background": "transparent",
+    "debug.inlineValues": "on",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js,${capture}.spec.ts,${capture}.spec-d.ts,${capture}.spec.tsx,${capture}.spec-d.tsx,${capture}.options.ts,${capture}.test.ts,${capture}.test-d.ts,${capture}.test.tsx,${capture}.test-d.tsx,${capture}.stories.ts,${capture}.stories.tsx,${capture}.mdx",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts, ${capture}.http",
+        "*.json": "${capture}.js,${capture}.ts",
+        ".env": ".env.*",
+        ".eslintrc.json": ".eslintrc.*.json,.eslintignore",
+        ".eslintrc.js": ".eslintrc.*.js,.eslintignore",
+        ".eslintrc.cjs": ".eslintrc.*.cjs,.eslintignore",
+        ".gitignore": ".gitkeep,.gitattributes",
+        ".prettierrc.json": ".prettierrc.*.json,.prettierignore",
+        ".prettierrc": ".prettierignore",
+        "package.json": "package-lock.json,yarn.lock,pnpm-lock.yaml",
+        "tsconfig.json": "tsconfig.*.json,tsconfig.tsbuildinfo"
+    },
+    "editor.rulers": [80]
+}

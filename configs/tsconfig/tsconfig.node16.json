@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        /**
+         * Specify what module code is generated.
+         */
+        "module": "Node16",
+        /**
+         * Specify how TypeScript looks up a file from a given module specifier.
+         */
+        "moduleResolution": "Node16",
+    }
+}

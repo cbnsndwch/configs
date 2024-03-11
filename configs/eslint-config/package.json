@@ -1,0 +1,18 @@
+{
+    "name": "@cbnsndwch/eslint-config",
+    "description": "ESLint configuration presets",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": {
+        "name": "cbnsndwch LLC",
+        "url": "https://www.cbnsndwch.io"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cbnsndwch/configs",
+        "directory": "configs/eslint-config"
+    },
+    "files": [
+        "base.js"
+    ]
+}
