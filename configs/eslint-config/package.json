@@ -1,7 +1,7 @@
 {
     "name": "@cbnsndwch/eslint-config",
     "description": "ESLint config presets",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "license": "MIT",
     "author": {
         "name": "cbnsndwch LLC",
